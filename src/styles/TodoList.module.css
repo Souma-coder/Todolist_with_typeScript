@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.buttonBoxes {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+}
+
+.table {
+  margin: 32px auto;
+}
+
+.table th,
+.table td {
+  border: 1px solid blueviolet;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+.inputStyle {
+  min-width: 186px;
+  padding: 5px;
+  outline: none;
+  text-align: center;
+  /* font-weight: bold; */
+  background-color: gray;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.divStyle {
+  min-width: 200px;
+  text-align: center;
+  background: -webkit-linear-gradient(blueviolet, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonStyle {
+  background-image: linear-gradient(blueviolet, blue);
+  color: #ececec;
+  font-weight: bold;
+  padding: 13px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+.todoHead {
+  background: -webkit-linear-gradient(blueviolet, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.actionButtonStyle {
+  background-image: linear-gradient(blueviolet, blue);
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ececec;
+}
